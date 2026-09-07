@@ -3,7 +3,8 @@ from openai import OpenAI
 
 #1.创建【模型】客户端对象
 client = OpenAI(
-    api_key="sk-02aa824e3e2442dd97cbf80f8280ae96",
+    # SDK 默认读 OPENAI_API_KEY；百炼要用 DASHSCOPE_API_KEY，必须显式传入
+    api_key=os.getenv("DASHSCOPE_API_KEY"),
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 

@@ -88,3 +88,5 @@ if __name__ == '__main__':
         print(f"AI老师：",end="",flush=True)
         for chunk in chat.send(user_input):
             print(chunk,end="",flush=True)
+        print()
+

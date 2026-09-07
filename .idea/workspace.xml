@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a02315-358c-41fa-b5b6-02d307243f0b" name="Changes" comment="1.调用大模型&#10;2.多轮对话实现，及流式输出">
-      <change beforePath="$PROJECT_DIR$/char_with_model_copy/1_调用大模型.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/1_调用大模型.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_with_model_copy/2_测试大模型记忆功能.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/2_测试大模型记忆功能.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_with_model_copy/3_让大模型能记忆.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/3_让大模型能记忆.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_with_model_copy/5_实现多轮对话.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/5_实现多轮对话.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_with_model_copy/6_流式输出.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/6_流式输出.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_with_model_copy/7_流式输出多轮对话.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/7_流式输出多轮对话.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_with_model_copy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat_with_model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/langchain_quikstart/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain_quikstart/1_对接狭义的大语言模型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain_quikstart/2_对接狭义的大语言模型_流式输出.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain_quikstart/3_对接聊天模型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain_quikstart/4_对接聊天模型_流式输出.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain_quikstart/6_实现多轮对话.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain_quikstart/7_向量模型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain_quikstart/8_向量模型_相似度判断.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain_quikstart/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat_with_model_copy/7_流式输出多轮对话.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/7_流式输出多轮对话.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,59 +30,71 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hightrabbit"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hightrabbit&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hightrabbit/chatAi.git",
-    "accountId": "720e24de-1b9e-468d-9d2e-fbf02d607e75"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hightrabbit/chatAi.git&quot;,
+    &quot;accountId&quot;: &quot;720e24de-1b9e-468d-9d2e-fbf02d607e75&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3IykN2M0aE9a53TzBXY9TwXh78W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.1_调用大模型.executor": "Run",
-    "Python.2_大模型记忆.executor": "Run",
-    "Python.3_让大模型能记忆.executor": "Run",
-    "Python.5_实现多轮对话.executor": "Run",
-    "Python.6_流式输出.executor": "Run",
-    "Python.7_流式输出多轮对话.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1_对接狭义的大语言模型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1_调用大模型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_大模型记忆.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_对接狭义的大语言模型_流式输出.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3_对接聊天模型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3_让大模型能记忆.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4_对接聊天模型_流式输出.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5_实现多轮对话.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6_实现多轮对话.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6_流式输出.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7_向量模型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7_流式输出多轮对话.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8_向量模型_相似度判断.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.7_流式输出多轮对话">
-    <configuration name="2_测试大模型记忆功能" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/langchain_quikstart" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.8_向量模型_相似度判断">
+    <configuration name="4_对接聊天模型_流式输出" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="OPNEAI_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="OPENAI_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
-        <env name="DASHSCOPE_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
+        <env name="OPENAI_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+        <env name="DASHSCOPE_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/char_with_model_copy" />
+      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/langchain_quikstart" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/char_with_model_copy/2_测试大模型记忆功能.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/langchain_quikstart/4_对接聊天模型_流式输出.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,76 +103,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_让大模型能记忆" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6_实现多轮对话" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="OPENAI_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
-        <env name="DASHSCOPE_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
+        <env name="OPENAI_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+        <env name="DASHSCOPE_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/char_with_model_copy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/langchain_quikstart" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/char_with_model_copy/3_让大模型能记忆.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5_实现多轮对话" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="OPENAI_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
-        <env name="DASHSCOPE_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/char_with_model_copy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/char_with_model_copy/5_实现多轮对话.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="6_流式输出" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="OPENAI_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
-        <env name="DASHSCOPE_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/char_with_model_copy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/char_with_model_copy/6_流式输出.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/langchain_quikstart/6_实现多轮对话.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,17 +136,69 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="OPENAI_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
-        <env name="DASHSCOPE_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
+        <env name="OPENAI_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+        <env name="DASHSCOPE_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/char_with_model_copy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chat_with_model_copy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/char_with_model_copy/7_流式输出多轮对话.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chat_with_model_copy/7_流式输出多轮对话.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7_向量模型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="OPENAI_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+        <env name="DASHSCOPE_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chat_with_model_copy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/langchain_quikstart/7_向量模型.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8_向量模型_相似度判断" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="OPENAI_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+        <env name="DASHSCOPE_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/langchain_quikstart" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/langchain_quikstart/8_向量模型_相似度判断.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,8 +214,8 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="OPENAI_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
-        <env name="DASHSCOPE_API_KEY" value="sk-02aa824e3e2442dd97cbf80f8280ae96" />
+        <env name="OPENAI_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+        <env name="DASHSCOPE_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
@@ -221,19 +234,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.3_让大模型能记忆" />
-      <item itemvalue="Python.5_实现多轮对话" />
-      <item itemvalue="Python.6_流式输出" />
+      <item itemvalue="Python.4_对接聊天模型_流式输出" />
+      <item itemvalue="Python.6_实现多轮对话" />
       <item itemvalue="Python.7_流式输出多轮对话" />
-      <item itemvalue="Python.2_测试大模型记忆功能" />
+      <item itemvalue="Python.8_向量模型_相似度判断" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8_向量模型_相似度判断" />
         <item itemvalue="Python.7_流式输出多轮对话" />
-        <item itemvalue="Python.6_流式输出" />
-        <item itemvalue="Python.5_实现多轮对话" />
-        <item itemvalue="Python.3_让大模型能记忆" />
-        <item itemvalue="Python.2_测试大模型记忆功能" />
+        <item itemvalue="Python.6_实现多轮对话" />
+        <item itemvalue="Python.4_对接聊天模型_流式输出" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788754493680</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.调用大模型&#10;2.多轮对话实现，及流式输出">
+      <option name="closed" value="true" />
+      <created>1788762213209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788762213209</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

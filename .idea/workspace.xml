@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a02315-358c-41fa-b5b6-02d307243f0b" name="Changes" comment="1.调用大模型">
-      <change afterPath="$PROJECT_DIR$/char_with_model_copy/2_测试大模型记忆功能.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/char_with_model_copy/3_让大模型能记忆.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/char_with_model_copy/5_实现多轮对话.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/char_with_model_copy/6_流式输出.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/char_with_model_copy/7_流式输出多轮对话.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_with_model_copy/1_调用大模型.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_with_model_copy/1_调用大模型.py" afterDir="false" />
+    <list default="true" id="e2a02315-358c-41fa-b5b6-02d307243f0b" name="Changes" comment="1.调用大模型&#10;2.多轮对话实现，及流式输出">
+      <change beforePath="$PROJECT_DIR$/char_with_model_copy/1_调用大模型.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/1_调用大模型.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_with_model_copy/2_测试大模型记忆功能.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/2_测试大模型记忆功能.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_with_model_copy/3_让大模型能记忆.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/3_让大模型能记忆.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_with_model_copy/5_实现多轮对话.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/5_实现多轮对话.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_with_model_copy/6_流式输出.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/6_流式输出.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_with_model_copy/7_流式输出多轮对话.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/7_流式输出多轮对话.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_with_model_copy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat_with_model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/langchain_quikstart/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,18 +260,27 @@
       <option name="project" value="LOCAL" />
       <updated>1788745306622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.调用大模型&#10;2.多轮对话实现，及流式输出">
+      <option name="closed" value="true" />
+      <created>1788754493680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788754493680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.调用大模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.调用大模型" />
+    <MESSAGE value="1.调用大模型&#10;2.多轮对话实现，及流式输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.调用大模型&#10;2.多轮对话实现，及流式输出" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/char_with_model_copy/6_流式输出.py</url>
+          <url>file://$PROJECT_DIR$/chat_with_model_copy/6_流式输出.py</url>
           <line>3</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

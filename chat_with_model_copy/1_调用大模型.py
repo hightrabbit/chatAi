@@ -18,6 +18,7 @@ completion = client.chat.completions.create(
 )
 
 #3.打印输出
+print(completion)
 print(completion.model_dump_json())
 
 #3.1打印指定输出内容

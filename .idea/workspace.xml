@@ -4,56 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a02315-358c-41fa-b5b6-02d307243f0b" name="Changes" comment="1.langchain入门">
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/10_大模型推荐一部电影的案例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/11_翻译成英文案例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/1_有无提示词的区别.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/2_提示词引入.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/3_提示词模版引入.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/4_提示词模版.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/5_fewshotprompttemplate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/5_fewshotprompttemplate_lcel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/6_chatprompttemplate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/7_传递上下文内容.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/8_字符串输出解析器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/9_json输出解析器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain_prompt_outputparser/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/chat_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/core/chat_history_manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/core/fact_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/core/intent_recognizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/core/intent_recognizer_with_structured_output.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/core/memory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/core/prompt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lingyu-chat/core/protocol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message_store/1_inmemory_chat_mesaage_history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message_store/2_文件保存所有的消息列表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message_store/3_实现多伦对话_自带的记忆存储对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message_store/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/10_嵌入模型_批量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/11_语义相似度测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/12_chromadb的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/13_MMR场景引入.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/14_MMR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/1_doucument对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/3_TextLoader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/4_WebBaseLoader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/6_递归字符文本分割器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/7_正则表达式切分.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/8_overlap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/9_嵌入模型.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/_PyMuPDFLoader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/data/file/doc文档.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/data/file/sample_document.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/data/file/北京有什么好玩的.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice/data/file/历史文化.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
+    <list default="true" id="e2a02315-358c-41fa-b5b6-02d307243f0b" name="Changes" comment="1.mmr,相似度，向量数据库，文本向量化">
+      <change afterPath="$PROJECT_DIR$/rag-practice-2/1_欧氏距离的计算.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rag-practice-2/2_ChromaDB中使用欧式距离.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rag-practice-2/3_余弦相似度计算.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rag-practice-2/4_ChromaDB中使用余弦相似度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rag-practice-2/5_hybrid_search_引入.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rag-practice-2/6_混合搜索.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rag-practice-2/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat_with_model_copy/1_调用大模型.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_with_model_copy/1_调用大模型.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,47 +49,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.10_大模型推荐一部电影的案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11_翻译成英文案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_doucument对象.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_inmemory_chat_mesaage_history.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_对接狭义的大语言模型.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_有无提示词的区别.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_调用大模型.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_大模型记忆.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_对接狭义的大语言模型_流式输出.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_文件保存所有的消息列表.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_实现多伦对话_自带的记忆存储对象.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_对接聊天模型.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_提示词模版引入.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_让大模型能记忆.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4_对接聊天模型_流式输出.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4_提示词模版.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5_fewshotprompttemplate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5_fewshotprompttemplate_lcel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5_实现多轮对话.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6_chatprompttemplate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6_实现多轮对话.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6_流式输出.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7_传递上下文内容.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7_向量模型.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7_流式输出多轮对话.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8_向量模型_相似度判断.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8_字符串输出解析器.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9_json输出解析器.executor&quot;: &quot;Run&quot;,
-    &quot;Python._PyMuPDFLoader.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhoujunlin/Documents/PythonProject/rag-practice&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.10_大模型推荐一部电影的案例.executor": "Run",
+    "Python.11_翻译成英文案例.executor": "Run",
+    "Python.1_doucument对象.executor": "Run",
+    "Python.1_inmemory_chat_mesaage_history.executor": "Run",
+    "Python.1_对接狭义的大语言模型.executor": "Run",
+    "Python.1_有无提示词的区别.executor": "Run",
+    "Python.1_欧氏距离的计算.executor": "Debug",
+    "Python.1_调用大模型.executor": "Run",
+    "Python.2_大模型记忆.executor": "Run",
+    "Python.2_对接狭义的大语言模型_流式输出.executor": "Run",
+    "Python.2_文件保存所有的消息列表.executor": "Run",
+    "Python.3_实现多伦对话_自带的记忆存储对象.executor": "Run",
+    "Python.3_对接聊天模型.executor": "Run",
+    "Python.3_提示词模版引入.executor": "Run",
+    "Python.3_让大模型能记忆.executor": "Run",
+    "Python.4_对接聊天模型_流式输出.executor": "Run",
+    "Python.4_提示词模版.executor": "Run",
+    "Python.5_fewshotprompttemplate.executor": "Run",
+    "Python.5_fewshotprompttemplate_lcel.executor": "Run",
+    "Python.5_hybrid_search_引入.executor": "Run",
+    "Python.5_实现多轮对话.executor": "Run",
+    "Python.6_chatprompttemplate.executor": "Run",
+    "Python.6_实现多轮对话.executor": "Run",
+    "Python.6_流式输出.executor": "Run",
+    "Python.7_传递上下文内容.executor": "Run",
+    "Python.7_向量模型.executor": "Run",
+    "Python.7_流式输出多轮对话.executor": "Run",
+    "Python.8_向量模型_相似度判断.executor": "Run",
+    "Python.8_字符串输出解析器.executor": "Run",
+    "Python.9_json输出解析器.executor": "Run",
+    "Python._PyMuPDFLoader.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/zhoujunlin/Documents/PythonProject/rag-practice-2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rag-practice-2" />
       <recent name="$PROJECT_DIR$/rag-practice" />
       <recent name="$PROJECT_DIR$/rag-practice/data/file" />
       <recent name="$PROJECT_DIR$/langchain_prompt_outputparser" />
@@ -139,8 +101,8 @@
       <recent name="$PROJECT_DIR$/langchain_quikstart" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._PyMuPDFLoader">
-    <configuration name="1_调用大模型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.5_hybrid_search_引入">
+    <configuration name="1_欧氏距离的计算" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,12 +114,12 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chat_with_model_copy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag-practice-2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chat_with_model_copy/1_调用大模型.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag-practice-2/1_欧氏距离的计算.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_实现多伦对话_自带的记忆存储对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5_hybrid_search_引入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,12 +192,12 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/message_store" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag-practice-2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/message_store/3_实现多伦对话_自带的记忆存储对象.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag-practice-2/5_hybrid_search_引入.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,19 +259,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.1_欧氏距离的计算" />
+      <item itemvalue="Python.5_hybrid_search_引入" />
       <item itemvalue="Python.1_doucument对象" />
       <item itemvalue="Python._PyMuPDFLoader" />
-      <item itemvalue="Python.1_调用大模型" />
       <item itemvalue="Python.3_提示词模版引入" />
-      <item itemvalue="Python.3_实现多伦对话_自带的记忆存储对象" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5_hybrid_search_引入" />
+        <item itemvalue="Python.1_欧氏距离的计算" />
         <item itemvalue="Python._PyMuPDFLoader" />
         <item itemvalue="Python.1_doucument对象" />
         <item itemvalue="Python.3_提示词模版引入" />
-        <item itemvalue="Python.1_调用大模型" />
-        <item itemvalue="Python.3_实现多伦对话_自带的记忆存储对象" />
       </list>
     </recent_temporary>
   </component>
@@ -360,13 +322,33 @@
       <option name="project" value="LOCAL" />
       <updated>1788789814079</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.mmr,相似度，向量数据库，文本向量化">
+      <option name="closed" value="true" />
+      <created>1789185979636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789185979636</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.调用大模型" />
     <MESSAGE value="1.调用大模型&#10;2.多轮对话实现，及流式输出" />
     <MESSAGE value="1.langchain入门" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.langchain入门" />
+    <MESSAGE value="1.mmr,相似度，向量数据库，文本向量化" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.mmr,相似度，向量数据库，文本向量化" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rag-practice-2/1_欧氏距离的计算.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

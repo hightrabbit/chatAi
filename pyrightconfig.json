@@ -1,0 +1,10 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "extraPaths": [
+    ".",
+    "lingyu-chat"
+  ],
+  "pythonVersion": "3.13",
+  "typeCheckingMode": "basic"
+}

@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "/Users/zhoujunlin/Documents/PythonProject/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": [
+    "/Users/zhoujunlin/Documents/PythonProject",
+    "/Users/zhoujunlin/Documents/PythonProject/lingyu-chat"
+  ],
+  "python.analysis.diagnosticMode": "workspace"
+}

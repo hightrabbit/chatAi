@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a02315-358c-41fa-b5b6-02d307243f0b" name="Changes" comment="1.mmr,相似度，向量数据库，文本向量化">
-      <change afterPath="$PROJECT_DIR$/rag-practice-2/1_欧氏距离的计算.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice-2/2_ChromaDB中使用欧式距离.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice-2/3_余弦相似度计算.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice-2/4_ChromaDB中使用余弦相似度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice-2/5_hybrid_search_引入.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice-2/6_混合搜索.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag-practice-2/__init__.py" afterDir="false" />
+    <list default="true" id="e2a02315-358c-41fa-b5b6-02d307243f0b" name="Changes" comment="1.相似度查询，关键词查询，混合查询，rrf融合--检索阶段">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789185979636</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.相似度查询，关键词查询，混合查询，rrf融合--检索阶段">
+      <option name="closed" value="true" />
+      <created>1789308700466</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789308700466</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -338,7 +339,8 @@
     <MESSAGE value="1.调用大模型&#10;2.多轮对话实现，及流式输出" />
     <MESSAGE value="1.langchain入门" />
     <MESSAGE value="1.mmr,相似度，向量数据库，文本向量化" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.mmr,相似度，向量数据库，文本向量化" />
+    <MESSAGE value="1.相似度查询，关键词查询，混合查询，rrf融合--检索阶段" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.相似度查询，关键词查询，混合查询，rrf融合--检索阶段" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

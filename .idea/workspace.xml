@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a02315-358c-41fa-b5b6-02d307243f0b" name="Changes" comment="1.相似度查询，关键词查询，混合查询，rrf融合--检索阶段">
+      <change afterPath="$PROJECT_DIR$/samart_reading/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/.idea/samart_reading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/config/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/data/files/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/data/files/sample_document.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/indexing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/indexing/hash_calculate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samart_reading/indexing/ingest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyrightconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/pyrightconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +83,7 @@
     "Python.6_chatprompttemplate.executor": "Run",
     "Python.6_实现多轮对话.executor": "Run",
     "Python.6_流式输出.executor": "Run",
+    "Python.6_混合搜索.executor": "Run",
     "Python.7_传递上下文内容.executor": "Run",
     "Python.7_向量模型.executor": "Run",
     "Python.7_流式输出多轮对话.executor": "Run",
@@ -79,6 +94,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/zhoujunlin/Documents/PythonProject/rag-practice-2"
   }
@@ -94,7 +110,7 @@
       <recent name="$PROJECT_DIR$/langchain_quikstart" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5_hybrid_search_引入">
+  <component name="RunManager" selected="Python.6_混合搜索">
     <configuration name="1_欧氏距离的计算" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -147,32 +163,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_提示词模版引入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="OPENAI_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
-        <env name="DASHSCOPE_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/langchain_prompt_outputparser" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/langchain_prompt_outputparser/3_提示词模版引入.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="5_hybrid_search_引入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -191,6 +181,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag-practice-2/5_hybrid_search_引入.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6_混合搜索" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="OPENAI_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+        <env name="DASHSCOPE_API_KEY" value="sk-ws-H.PDMYEEM.5EQM.MEUCIQC-q_j-aydBaLCs0CXa0VIt-A_5P6RLo5nofsEh8Llz7QIgFygJUapUlnmBSRDtjE63sCUrSLZg7q7t3A13mJRo1M8" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag-practice-2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag-practice-2/6_混合搜索.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,17 +270,17 @@
     <list>
       <item itemvalue="Python.1_欧氏距离的计算" />
       <item itemvalue="Python.5_hybrid_search_引入" />
+      <item itemvalue="Python.6_混合搜索" />
       <item itemvalue="Python.1_doucument对象" />
       <item itemvalue="Python._PyMuPDFLoader" />
-      <item itemvalue="Python.3_提示词模版引入" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6_混合搜索" />
         <item itemvalue="Python.5_hybrid_search_引入" />
         <item itemvalue="Python.1_欧氏距离的计算" />
         <item itemvalue="Python._PyMuPDFLoader" />
         <item itemvalue="Python.1_doucument对象" />
-        <item itemvalue="Python.3_提示词模版引入" />
       </list>
     </recent_temporary>
   </component>
@@ -331,8 +347,27 @@
       <option name="project" value="LOCAL" />
       <updated>1789308700466</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.相似度查询，关键词查询，混合查询，rrf融合--检索阶段">
+      <option name="closed" value="true" />
+      <created>1789311373736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789311373736</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.调用大模型" />
